@@ -35,10 +35,28 @@ div#block-locale-language-content div.content li a:last-child{
 }
 
 #tagline {
-    padding: 15px 0 15px 20px;
+    padding: 5px 0 15px 20px;
     font-size: 14px;
 }
 
 .page-content {
     padding: 20px 0;
+}
+
+#header{
+	margin-bottom: 10px;
+}
+
+.contact-details-alt p {
+    margin: -2px 0 0 10px;
+}
+
+#footer .block h2{
+	margin-top: 8px;
+	font-size: 18px;
+	color: #FAFAFA;
+}
+
+.item-description h5{
+	font-weight: 400;
 }

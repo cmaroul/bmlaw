@@ -12,7 +12,7 @@
     <header id="header">
 
       <!-- Logo -->
-      <div class="ten columns">
+      <div class="twelve columns">
 
         <div id="logo">
           <?php if ($logo): ?>
@@ -47,7 +47,7 @@
 
 
       <?php if ($page['header']): ?>
-        <div class="six columns">
+        <div class="four columns">
           <?php print render($page['header']); ?>
         </div>
       <?php endif; ?>
@@ -196,7 +196,7 @@
     <?php if ($page['home_recent_news'] || $page['home_testimonial']): ?>
       <div class="container">
         <?php if ($page['home_recent_news']): ?>
-          <div class="eight columns">
+          <div class="sixteen columns">
             <?php print render($page['home_recent_news']); ?>
           </div>
         <?php endif; ?>

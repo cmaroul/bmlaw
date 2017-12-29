@@ -594,6 +594,9 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 }
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
+.icon-law:before				  { content: "\f24e"; }
+.icon-legal:before				  { content: "\F0E3"; }
+.icon-briefcase:before			  { content: "\f0b1"; }
 .icon-glass:before                { content: "\f000"; }
 .icon-music:before                { content: "\f001"; }
 .icon-search:before               { content: "\f002"; }
