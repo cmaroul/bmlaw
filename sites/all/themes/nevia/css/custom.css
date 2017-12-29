@@ -60,3 +60,7 @@ div#block-locale-language-content div.content li a:last-child{
 .item-description h5{
 	font-weight: 400;
 }
+
+#contact-site-form .form-text{
+	width:100%;
+}
